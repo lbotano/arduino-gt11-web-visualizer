@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<link rel=stylesheet href=main.css>
+<h1>
+    Registro de temperatura y humedad
+</h1>
+<div class=t>
+    Temperatura
+    <div>
+        <div class=p>
+            <canvas id=t height=300 width=100></canvas>
+            <b>Ahora</b>
+        </div>
+        <div class=d>
+            <div>
+                <canvas id=ti height=150 width=50></canvas>
+                <span>Min
+            </div>
+            <div>
+                <canvas id=te height=150 width=50></canvas>
+                <span>Media
+            </div>
+            <div>
+                <canvas id=ta height=150 width=50></canvas>
+                <span>Max
+            </div>
+        </div>
+    </div>
+</div>
+<div class=h>
+    Humedad
+    <div>
+        <div class=p>
+            <canvas id=h height=200 width=200></canvas>
+            <b>Ahora</b>
+        </div>
+        <div class=d>
+            <div>
+                <canvas id=hi height=100 width=100></canvas>
+                <span>Min
+            </div>
+            <div>
+                <canvas id=he height=100 width=100></canvas>
+                <span>Media
+            </div>
+            <div>
+                <canvas id=ha height=100 width=100></canvas> 
+                <span>Max
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    tmp=1;tmpI=2;tmpE=3;tmpA=4;hum=10;humI=20;humE=30;humA=40;
+</script>
+<script src=graphs.js></script>
+</html>
